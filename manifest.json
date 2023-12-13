@@ -8,15 +8,12 @@
     "default_title": "BoLinks"
   },
   "content_scripts": [],
-  "background": {
-    "service_worker": "background.js"
-  },
   "declarative_net_request": {
     "rule_resources": [
       {
         "id": "bolinks_rules",
-        "enabled": true,
-        "path": "bolinks_rules.json"
+        "path": "bolinks_rules.json",
+        "enabled": true
       }
     ]
   },
